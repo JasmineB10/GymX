@@ -1,4 +1,3 @@
-import { SelectedPage } from "@/shared/types";
 import image1 from "@/assets/image1.png";
 import image2 from "@/assets/image2.png";
 import image3 from "@/assets/image3.png";
@@ -9,11 +8,8 @@ import HText from "@/shared/HText";
 import Class from "./Class";
 import { useEffect, useRef, useState } from 'react';
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-}
 
-const OurClasses = ({ setSelectedPage }: Props) => {
+const OurClasses = () => {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
