@@ -1,13 +1,11 @@
 import HText from "@/shared/HText";
-import { SelectedPage } from "@/shared/types";
+
 import { useForm } from "react-hook-form";
 import { useEffect, useRef, useState } from 'react';
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-}
 
-const ContactUs = (props: Props) => {
+
+const ContactUs = () => {
     const [isVisible, setIsVisible] = useState(false);
     const ref = useRef<HTMLDivElement>(null);
 
