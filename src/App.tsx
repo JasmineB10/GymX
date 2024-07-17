@@ -34,7 +34,7 @@ function App() {
       ></Navbar>
       <Home setSelectedPage={setSelectedPage}/> 
       <Benefits setSelectedPage={setSelectedPage}/>
-      <OurClasses setSelectedPage={setSelectedPage}/> 
+      <OurClasses/> 
       <ContactUs/>
      </div>
   )
